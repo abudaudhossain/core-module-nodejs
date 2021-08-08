@@ -1,6 +1,7 @@
 const School = require('./school');
 const school = new School();
 
+// call event rasing
 school.on('bellRing', ({
     period, state
 }) => {
